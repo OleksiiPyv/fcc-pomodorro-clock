@@ -1,0 +1,36 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Kdam Thmor Pro";
+
+    .clock {
+        background-color: #354259;
+        padding: 10px;
+        color: white;
+        min-width: 280px;
+
+        &__display {
+            text-align: center;
+        }
+
+        &__controls {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+
+            &-item {
+                flex: 45%;
+                text-align: center;
+
+                &-wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+            }
+        }
+    }
+}
